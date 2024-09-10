@@ -1,0 +1,42 @@
+.contactMe-container {
+  align-items: flex-start;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.contact-btn {
+}
+
+.input-container {
+}
+
+.input {
+}
+
+.input-container textarea {
+}
+
+.sendMessage-btn {
+}
+
+@media screen and (min-width: 769px) {
+  .contactMe-container {
+    display: flex; /* Use Flexbox to arrange children horizontally */
+    justify-content: space-between; /* Distribute space between the items */
+  }
+}
+
+@media screen and (min-width: 1025px) {
+}

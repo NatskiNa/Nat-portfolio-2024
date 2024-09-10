@@ -44,26 +44,8 @@ const Contact = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="contactMe-container">
-        <div className="contact-buttons">
-          <a
-            className="contact-info"
-            href="https://github.com/NatskiNa"
-            target="_blank" // Correct the target attribute
-            rel="noopener noreferrer" // Good security practice
-          >
-            <FaGithub size={27} className="contact-btn" /> Github
-          </a>
-          <a
-            className="contact-info"
-            href="https://www.linkedin.com/in/natskina/"
-            target="_blank" // Correct the target attribute
-            rel="noopener noreferrer" // Good security practice
-          >
-            <FaLinkedin size={27} className="contact-btn" /> LinkedIn
-          </a>
-        </div>
-        <h2>Contact Me</h2>
         <div className="input-container">
+          <h2>Contact Me</h2>
           <input
             type="text"
             name="full-name"
@@ -95,6 +77,24 @@ const Contact = () => {
             ></textarea>
           </div>
           <input type="submit" value="Send" className="sendMessage-btn" />
+        </div>
+        <div className="contact-buttons">
+          <a
+            className="contact-info"
+            href="https://github.com/NatskiNa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={27} className="contact-btn" /> Github
+          </a>
+          <a
+            className="contact-info"
+            href="https://www.linkedin.com/in/natskina/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={27} className="contact-btn" /> LinkedIn
+          </a>
         </div>
       </div>
     </form>

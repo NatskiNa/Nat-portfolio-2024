@@ -1,6 +1,7 @@
 .main-content-container {
   margin-left: 120px;
   padding: 10px;
+  justify-content: center;
 }
 
 @media screen and (min-width: 769px) {
