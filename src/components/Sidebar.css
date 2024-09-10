@@ -1,14 +1,12 @@
 .sidebar {
-  height: 100vh;
+  height: 100vh; /* Full height */
   background-color: grey;
   width: 95px;
-  position: fixed;
-  transition: width 0.3s ease;
-  z-index: 2;
-}
-
-.sidebar-expand {
-  width: 250px;
+  position: fixed; /* Anchoring the sidebar */
+  top: 0; /* Positioning from the top of the viewport */
+  left: 0; /* Align to the left side */
+  transition: width 0.5s ease; /* Smooth transition for width change */
+  z-index: 2; /* Make sure it is above other elements */
 }
 
 .sidebar-expand-chevron {
@@ -26,14 +24,14 @@
   margin-top: 50px;
 }
 
-.container-fluid {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  overflow: hidden;
+@media screen and (min-width: 769px) {
+  .expanded {
+    width: 200px;
+  }
 }
 
-@media (max-width: 1000px) {
-  .sidebar {
-    display: none;
+@media screen and (min-width: 1025px) {
+  .expanded {
+    width: 220px;
   }
 }

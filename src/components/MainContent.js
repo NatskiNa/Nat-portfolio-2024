@@ -4,6 +4,7 @@ import About from '../components/pages/About';
 import Skills from '../components/pages/Skills';
 import Projects from '../components/pages/Projects';
 import Contact from '../components/pages/Contact';
+import './MainContent.css';
 
 const MainContent = () => {
   return (

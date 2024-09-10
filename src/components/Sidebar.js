@@ -6,21 +6,27 @@ import { BsPerson } from 'react-icons/bs';
 import { PiStack } from 'react-icons/pi';
 import { MdOutlineWorkOutline } from 'react-icons/md';
 import { IoIosContact } from 'react-icons/io';
+import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 
 const Sidebar = () => {
   const [expandSidebar, setExpandSidebar] = useState(false);
 
+  const handleExpandClick = () => {
+    setExpandSidebar(!expandSidebar);
+  };
+
   return (
     <div className="sidebar">
       <div className={`sidebar ${expandSidebar ? 'expanded' : 'collapsed'}`}>
-        <button onClick={() => setExpandSidebar(!expandSidebar)}>
-          {expandSidebar ? 'Expand' : 'Collapse'}
-        </button>
-        {expandSidebar && (
-          <div className="sidebar-profile-pic">
-            <img src="/NN-profile.jpg" alt="profile" />
-          </div>
-        )}
+        <div className="sidebar-expand-chevron">
+          <p onClick={handleExpandClick}>
+            {expandSidebar ? (
+              <FaChevronLeft size={20} />
+            ) : (
+              <FaChevronRight size={20} />
+            )}
+          </p>
+        </div>
         <nav>
           <ul>
             <li className="nav-item">

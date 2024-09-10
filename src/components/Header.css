@@ -6,7 +6,7 @@
   align-items: flex-start;
   height: 400px;
   width: 100%;
-  padding: 10px 150px;
+
   text-align: left;
   position: relative;
 }
@@ -23,6 +23,10 @@
   font-size: 46px;
   margin: 5px 0;
   font-family: Impact, fantasy;
+}
+
+.header-contents {
+  padding: 10px;
 }
 
 .buttons {
@@ -54,4 +58,18 @@
 .resume-link {
   text-decoration: none;
   color: rgb(43, 42, 42);
+}
+
+@media screen and (min-width: 769px) {
+  .header-contents {
+    margin-left: 200px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .header-contents {
+    margin-left: 220px;
+    padding: 40px;
+  }
 }
