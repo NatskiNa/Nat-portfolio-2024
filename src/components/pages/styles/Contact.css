@@ -34,7 +34,6 @@
 @media screen and (min-width: 769px) {
   .contactMe-container {
     display: flex; /* Use Flexbox to arrange children horizontally */
-    justify-content: space-between; /* Distribute space between the items */
   }
 }
 

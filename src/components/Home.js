@@ -1,9 +1,9 @@
 import React from 'react';
-import './Header.css';
+import './Home.css';
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll';
 
-const Header = () => {
+const Home = () => {
   return (
     <div className="header-container">
       <div className="header-contents">
@@ -36,4 +36,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Home;
