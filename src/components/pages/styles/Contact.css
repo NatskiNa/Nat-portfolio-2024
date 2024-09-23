@@ -16,21 +16,6 @@
   padding: 10px;
 }
 
-.contact-btn {
-}
-
-.input-container {
-}
-
-.input {
-}
-
-.input-container textarea {
-}
-
-.sendMessage-btn {
-}
-
 @media screen and (min-width: 769px) {
   .contactMe-container {
     display: flex; /* Use Flexbox to arrange children horizontally */
