@@ -1,10 +1,10 @@
 .header-container {
-  background-color: rgb(230, 83, 60);
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 400px;
+  min-height: 50vh;
   width: 100%;
 
   text-align: left;
@@ -15,7 +15,7 @@
   font-family: Impact, fantasy;
   font-size: 32px;
   margin: 5px 0;
-  color: rgb(255, 165, 127);
+  color: #f05454;
 }
 
 .header-container h1 {
@@ -29,39 +29,9 @@
   padding: 10px;
 }
 
-.buttons {
-  display: flex;
-  gap: 20px;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  margin-top: 40px;
-}
-
-.contact-me-btn,
-.resume-btn {
-  background-color: rgb(255, 165, 127);
-  text-align: center;
-  width: 170px;
-  padding: 10px;
-  border-radius: 90px;
-  cursor: pointer;
-  transition: width 1s;
-}
-
-.contact-me-btn:hover,
-.resume-btn:hover {
-  background-color: rgb(131, 127, 127);
-  width: 230px;
-}
-
-.resume-link {
-  text-decoration: none;
-  color: rgb(43, 42, 42);
-}
-
 @media screen and (min-width: 769px) {
   .header-contents {
+    min-height: 60vh;
     margin-left: 200px;
     padding: 20px;
   }

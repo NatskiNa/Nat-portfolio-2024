@@ -1,0 +1,40 @@
+.navbar {
+  background-color: whitesmoke;
+  padding: 20px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 50px;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #f05454;
+}
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (min-width: 1025px) {
+  .navbar a {
+    font-size: 16px;
+  }
+}
