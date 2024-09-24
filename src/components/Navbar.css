@@ -1,19 +1,55 @@
+/* ナビゲーションバー全体のスタイル */
 .navbar {
   background-color: whitesmoke;
-  padding: 20px;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 100;
 }
 
+/* ナビゲーションのコンテナ */
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
-.navbar li {
-  margin: 0 50px;
+/* メニューアイコンのスタイル */
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px; /* 上からの距離を指定 */
+  right: 20px; /* 右からの距離を指定 */
+  z-index: 200; /* アイコンが他の要素の上に表示されるようにする */
+}
+
+/* 初期状態ではナビゲーションメニューは画面外に隠す */
+.nav-menu {
+  position: absolute;
+  top: 40px; /* .menu-icon の下に配置 */
+  right: 0;
+  width: 170px;
+  background-color: whitesmoke;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+  z-index: 150;
+}
+
+.nav-menu.active {
+  transform: scaleY(1); /* メニューが画面内にスライドして表示される */
+}
+
+/* 各ナビゲーションリンクのスタイル */
+.nav-menu li {
+  margin: 15px 0;
 }
 
 .navbar a {
@@ -28,50 +64,31 @@
   color: #f05454;
 }
 
-.menu-icon {
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.nav-menu {
-  position: fixed;
-  top: 60px;
-  right: 0;
-  height: 100vh;
-  width: 100%;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: whitesmoke;
-  transform: translateX(100%);
-  transition: transform 0.3s ease-in-out;
-}
-
-.nav-menu.active {
-  transform: translateX(0);
-}
-
+/* デスクトップ画面でのメニューアイコン非表示 */
 @media screen and (min-width: 769px) {
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+  }
+
   .menu-icon {
     display: none;
   }
 
   .nav-menu {
     position: initial;
-    height: auto;
-    width: auto;
-    flex-direction: row;
-    transform: translateX(0);
-    justify-content: flex-end;
+    transform: none;
     display: flex;
-    margin: 0 50px;
-    padding: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
   }
-}
 
-@media screen and (min-width: 1025px) {
+  .nav-menu li {
+    margin: 0 20px;
+  }
+
   .navbar a {
     font-size: 16px;
   }
