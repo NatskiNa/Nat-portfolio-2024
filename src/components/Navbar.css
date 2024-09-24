@@ -4,6 +4,7 @@
   position: sticky;
   top: 0;
   width: 100%;
+  height: 60px;
   z-index: 100;
 }
 
@@ -30,7 +31,7 @@
   position: absolute;
   top: 40px; /* .menu-icon の下に配置 */
   right: 0;
-  width: 170px;
+  width: 100px;
   background-color: whitesmoke;
   list-style: none;
   display: flex;
@@ -86,10 +87,16 @@
   }
 
   .nav-menu li {
-    margin: 0 20px;
+    margin: 0 40px;
   }
 
   .navbar a {
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .nav-menu li {
+    margin: 0 60px;
   }
 }
