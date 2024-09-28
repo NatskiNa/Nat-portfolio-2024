@@ -10,13 +10,11 @@ const Home = () => {
         <h1>
           <Typewriter
             options={{
-              strings: [
-                'FRONT-END WEB DEVELOPER',
-                'React | React Native',
-                'DESIGNER',
-              ],
+              strings: ['FRONT-END WEB DEVELOPER | React, DESIGNER'],
               autoStart: true,
               loop: true,
+              deleteSpeed: null,
+              pauseFor: 10000,
             }}
           />
         </h1>
