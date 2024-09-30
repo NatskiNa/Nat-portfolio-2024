@@ -9,18 +9,31 @@
   width: 100%;
   padding: 20px;
   margin-bottom: 40px;
+  align-items: center;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 @media screen and (min-width: 769px) {
   .page-section {
+    width: 100%;
     max-width: 900px;
     padding: 40px;
     margin-bottom: 60px;
+  }
+
+  .section-container {
+    padding: 20px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .page-section {
+    width: 100%;
     max-width: 1400px;
   }
 }
