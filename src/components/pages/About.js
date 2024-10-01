@@ -28,7 +28,11 @@ const About = () => {
               challenges. I’m eager to bring fresh ideas, adapt to new tools,
               and stay current with industry trends.
             </p>
-            <button>MY RESUME</button>
+            <div className="button-container">
+              <a href="/NN_CV.pdf" target="_blank" rel="noopener noreferrer">
+                <button>MY RESUME</button>
+              </a>
+            </div>
           </div>
         </div>
 
