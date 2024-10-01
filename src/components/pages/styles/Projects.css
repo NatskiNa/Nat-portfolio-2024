@@ -1,3 +1,9 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
 .project,
 .project-images {
   width: 100%;
@@ -6,6 +12,7 @@
 
 .job-title {
   text-align: left;
+  font-size: 1rem;
 }
 
 .project-content {
@@ -15,11 +22,32 @@
   font-weight: 300;
 }
 
+.project-link-container {
+  margin-top: 40px;
+}
+
+.project-image-container {
+  width: 100%;
+  margin-top: 40px;
+  height: 300px;
+  background-color: LightGray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 769px) {
-  .project-content {
-    font-size: 1.12rem;
-    line-height: 1.6;
-    margin-top: 50px;
+  .project-container {
+    display: flex;
+    flex-direction: column; /* 全体のプロジェクトを縦に並べる */
+    gap: 40px; /* 各プロジェクト間のスペース */
+  }
+
+  .project-wrapper {
+    display: flex;
+    flex-direction: row; /* 横並びにする */
+    justify-content: space-between; /* 左右に均等に配置 */
+    align-items: flex-start;
   }
 
   .project {
@@ -30,7 +58,7 @@
     width: 55%;
   }
 
-  .image-container {
+  .project-image-container {
     width: 100%;
     height: 375px; /* 画像のサイズを指定 */
     background-color: LightGray; /* 画像のプレースホルダーとしての色 */
@@ -41,6 +69,9 @@
 }
 
 @media screen and (min-width: 1025px) {
+  .project-container {
+    padding: 40px;
+  }
   .project-content {
     font-size: 1.25rem;
     font-weight: 300;
@@ -48,7 +79,7 @@
     margin-top: 55px;
   }
 
-  .image-container {
+  .project-image-container {
     width: 100%;
     height: 410px; /* 画像のサイズを指定 */
   }

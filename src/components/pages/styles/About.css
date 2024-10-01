@@ -1,3 +1,9 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
 .about,
 .skills {
   width: 100%;
@@ -53,12 +59,12 @@ button:active {
 }
 
 @media screen and (min-width: 769px) {
-  /* .section-container {
+  .about-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-  } */
+  }
 
   .about,
   .skills {
@@ -100,7 +106,7 @@ button:active {
 }
 
 @media screen and (min-width: 1025px) {
-  .section-container {
+  .about-container {
     padding: 40px;
   }
 

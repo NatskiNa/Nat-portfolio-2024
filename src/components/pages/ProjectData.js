@@ -2,7 +2,7 @@ const ProjectData = [
   {
     id: 1,
     jobTitle: 'Junior Web Developer',
-    projectTitle: 'Ahmed Tech Academy',
+    title: 'Ahmed Tech Academy',
     introduction:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.',
     skills: ['HTML5', 'CSS3', 'JavaScript'],
@@ -14,7 +14,7 @@ const ProjectData = [
   {
     id: 2,
     jobTitle: 'Personal Project',
-    projectTitle: 'Project 2',
+    title: 'Project 2',
     introduction:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.',
     skills: ['HTML5', 'CSS3', 'JavaScript'],
@@ -27,7 +27,7 @@ const ProjectData = [
   {
     id: 3,
     jobTitle: 'Personal Project',
-    projectTitle: 'Project 3',
+    title: 'Project 3',
     introduction:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.',
     skills: ['HTML5', 'CSS3', 'JavaScript'],
@@ -39,7 +39,7 @@ const ProjectData = [
   {
     id: 4,
     jobTitle: 'Personal Project',
-    projectTitle: 'Project 4',
+    title: 'Project 4',
     introduction:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.',
     skills: ['HTML5', 'CSS3', 'JavaScript'],

@@ -12,12 +12,6 @@
   align-items: center;
 }
 
-.section-container {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
 .section-title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -72,13 +66,6 @@
     left: 50%; /* 左端を50%に設定 */
     transform: translateX(-50%); /* 中央に寄せる */
     z-index: -1;
-  }
-
-  .section-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
   }
 
   .content-title {
