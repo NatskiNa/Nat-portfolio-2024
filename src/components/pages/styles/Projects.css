@@ -1,3 +1,55 @@
-.projects-section {
-  padding: 60px 20px;
+.project,
+.project-images {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.job-title {
+  text-align: left;
+}
+
+.project-content {
+  font-size: 1.1rem;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 769px) {
+  .project-content {
+    font-size: 1.12rem;
+    line-height: 1.6;
+    margin-top: 50px;
+  }
+
+  .project {
+    width: 40%;
+  }
+
+  .project-images {
+    width: 55%;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 375px; /* 画像のサイズを指定 */
+    background-color: LightGray; /* 画像のプレースホルダーとしての色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .project-content {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-top: 55px;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 410px; /* 画像のサイズを指定 */
+  }
 }

@@ -8,7 +8,7 @@
 .page-section {
   width: 100%;
   padding: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   align-items: center;
 }
 
@@ -16,6 +16,35 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 120px; /* ラインの幅を適切に調整 */
+  height: 9px; /* ラインの太さを設定 */
+  background-color: #f05454;
+  position: absolute;
+  bottom: 2px;
+  left: 50%; /* 左端を50%に設定 */
+  transform: translateX(-50%); /* 中央に寄せる */
+  z-index: -1;
+}
+
+.content-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 @media screen and (min-width: 769px) {
@@ -26,8 +55,37 @@
     margin-bottom: 60px;
   }
 
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    z-index: 1;
+  }
+
+  .section-title::after {
+    content: '';
+    display: block;
+    width: 161px; /* ラインの幅を適切に調整 */
+    height: 13px; /* ラインの太さを設定 */
+    background-color: #f05454;
+    position: absolute;
+    bottom: 0px; /* タイトルの下に少し余白を持たせる */
+    left: 50%; /* 左端を50%に設定 */
+    transform: translateX(-50%); /* 中央に寄せる */
+    z-index: -1;
+  }
+
   .section-container {
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .content-title {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 0;
   }
 }
 
@@ -35,5 +93,13 @@
   .page-section {
     width: 100%;
     max-width: 1400px;
+  }
+
+  .section-container {
+    padding: 40px;
+  }
+
+  .content-title {
+    margin-bottom: 30px;
   }
 }
