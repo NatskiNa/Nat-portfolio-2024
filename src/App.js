@@ -5,7 +5,9 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
+import ProjectDetailPage from './components/pages/ProjectDetailPage';
 import Contact from './components/pages/Contact';
+import Footer from './components/pages/Footer';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     </Router>
   );
