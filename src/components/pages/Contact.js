@@ -14,9 +14,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // const serviceId = 'natski-portfolio-email';
-    // const templateId = 'template_am1zzv9';
-    // const publicKey = '-gAlacLDLXvi_WeqD';
     const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
     const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
     const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
