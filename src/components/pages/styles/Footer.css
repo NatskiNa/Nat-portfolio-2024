@@ -1,0 +1,21 @@
+footer {
+  background-color: whitesmoke;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-container {
+  padding: 20px 10px 10px 10px;
+}
+
+.footer-icons {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+.copy-right {
+  font-size: medium;
+  color: black;
+  margin-bottom: 10px;
+}

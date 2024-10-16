@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { useNavigate } from 'react-router-dom';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
 import './styles/Contact.css';
 
 const Contact = () => {
@@ -77,24 +77,6 @@ const Contact = () => {
             ></textarea>
           </div>
           <input type="submit" value="Send" className="sendMessage-btn" />
-        </div>
-        <div className="contact-buttons">
-          <a
-            className="contact-info"
-            href="https://github.com/NatskiNa"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub size={27} className="contact-btn" /> Github
-          </a>
-          <a
-            className="contact-info"
-            href="https://www.linkedin.com/in/natskina/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin size={27} className="contact-btn" /> LinkedIn
-          </a>
         </div>
       </div>
     </form>

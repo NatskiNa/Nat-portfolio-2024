@@ -3,20 +3,6 @@
   align-items: flex-start;
 }
 
-.contact-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.contact-info {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-  padding: 10px;
-}
-
 @media screen and (min-width: 769px) {
   .contactMe-container {
     display: flex; /* Use Flexbox to arrange children horizontally */
