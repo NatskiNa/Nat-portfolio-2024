@@ -6,7 +6,8 @@ const ProjectDetailPage = ({ project, closeModal }) => {
   return (
     <div>
       <h2>{project.title}</h2>
-      <p>{project.introduction}</p>
+      <div className="project-images">{project.image}</div>
+      <p>{project.description}</p>
       <div className="skills-content">
         {project.skills.map((skill, index) => (
           <div key={index} className="skill-item">

@@ -4,22 +4,6 @@ import './styles/Projects.css';
 import ProjectData from './ProjectData';
 import ProjectDetailPage from './ProjectDetailPage';
 
-const customStyles = {
-  content: {
-    top: '20%',
-    maxHeight: '80vh',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-  },
-  overlay: {
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    zIndex: 999,
-  },
-};
-
 Modal.setAppElement('#root');
 
 const Projects = () => {
@@ -62,7 +46,18 @@ const Projects = () => {
               </div>
             </div>
             <div className="project-images">
-              <div className="project-image-container">images</div>
+              <div className="project-image-container">
+                <img
+                  className="left-image"
+                  src={project.images[0]}
+                  alt={project.title}
+                />
+                <img
+                  className="right-image"
+                  src={project.images[1]}
+                  alt={project.title}
+                />
+              </div>
             </div>
           </div>
         ))}
@@ -71,7 +66,8 @@ const Projects = () => {
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        style={customStyles}
+        className="modal-content"
+        overlayClassName="modal-overlay"
         contentLabel="Project Details"
       >
         <ProjectDetailPage project={selectedProject} closeModal={closeModal} />
