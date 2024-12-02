@@ -16,6 +16,7 @@ const ProjectDetailPage = ({ project, closeModal }) => {
       </button>
 
       <h2>{project.title}</h2>
+      <p className="project-summary">{project.summary}</p>
 
       {/* <div className="project-images">{project.image}</div> */}
 
@@ -38,14 +39,14 @@ const ProjectDetailPage = ({ project, closeModal }) => {
         ))}
       </ul>
 
-      <h3>Tools and Technologies</h3>
+      {/* <h3>Tools and Technologies</h3>
       <div className="skills-content">
         {project.skills.map((skill, index) => (
           <div key={index} className="skill-item">
             {skill}
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="button-container">
         {project.url && (
