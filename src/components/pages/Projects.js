@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './styles/Projects.css';
-import ProjectData from './ProjectData';
+import projectData from '../../data/projectData.json';
 import ProjectDetailPage from './ProjectDetailPage';
 
 Modal.setAppElement('#root');
@@ -24,7 +24,7 @@ const Projects = () => {
     <div id="projects" className="page-section">
       <h1 className="section-title">PROJECTS</h1>
       <div className="project-container">
-        {ProjectData.map((project) => (
+        {projectData.map((project) => (
           <div key={project.id} className="project-wrapper">
             <div className="project">
               <p className="job-title">{project.jobTitle}</p>
@@ -70,7 +70,12 @@ const Projects = () => {
         overlayClassName="modal-overlay"
         contentLabel="Project Details"
       >
-        <ProjectDetailPage project={selectedProject} closeModal={closeModal} />
+        {selectedProject && (
+          <ProjectDetailPage
+            project={selectedProject}
+            closeModal={closeModal}
+          />
+        )}
       </Modal>
     </div>
   );
