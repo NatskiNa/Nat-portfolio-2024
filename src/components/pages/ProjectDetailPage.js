@@ -20,19 +20,19 @@ const ProjectDetailPage = ({ project, closeModal }) => {
 
       {/* <div className="project-images">{project.image}</div> */}
 
-      <h3>Problems and Solutions:</h3>
+      <h3>Problems and Solutions</h3>
       {project.problemsAndSolutions.map((item, index) => (
         <p key={index}>{item.content}</p>
       ))}
 
-      <h3>Lessons Learned:</h3>
+      <h3>Lessons Learned</h3>
       <ul>
         {project.lessonsLearned[0].content.map((lesson, index) => (
           <li key={index}>{lesson}</li>
         ))}
       </ul>
 
-      <h3>Future Plans:</h3>
+      <h3>Future Plans</h3>
       <ul>
         {project.futurePlans[0].content.map((plan, index) => (
           <li key={index}>{plan}</li>

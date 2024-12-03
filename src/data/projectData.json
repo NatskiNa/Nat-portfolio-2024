@@ -3,22 +3,31 @@
     "id": 1,
     "jobTitle": "Junior Web Developer",
     "title": "Ahmed Tech Academy",
-    "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
-    "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
+    "introduction": "Ahmed Tech Academy is a new coding bootcamp designed to help individuals learn new skills, advance their careers, or explore exciting opportunities in tech. The website serves as a central hub, providing clear and accessible information for prospective students, current learners, and anyone interested in discovering what the academy has to offer.",
+    "summary": "In my role as a Junior Web Developer, I developed a responsive website for Ahmed Tech Academy using React, incorporating advanced features such as SEO optimization, a 3D interactive robot character, a chatbot powered by ChatGPT API, and a dynamic blog page.  These elements were designed to improve the academy’s online visibility and enhance user interaction.",
+    "skills": ["React.js", "HTML5", "CSS3", "JavaScript", "Spline"],
     "images": ["/images/ATAlandingPage.png", "/images/ATAcoursePage.png"],
     "problemsAndSolutions": [
       {
         "type": "paragraph",
-        "content": "Managing state across multiple components—specifically GradeModal.js, CalendarScoreInput.js, and App.js—led to inconsistencies in updating the available points (count) after users spent points (usedPoints). Directly updating count in Firestore caused conflicts with the real-time synchronization logic, resulting in count reverting to its previous value when new grades were added."
+        "content": "Problem: Low search engine visibility for a new institution."
+      },
+      {
+        "type": "paragraph",
+        "content": "Solution: I conducted keyword research using Google Ads Keyword Planner and implemented Schema Markup in React with JSON-LD, improving search rankings and visibility through tools like Schema.org and Google Rich Results Test. I also optimized the blog section using react-helmet-async to manage meta tags and structured data effectively."
+      },
+      {
+        "type": "paragraph",
+        "content": "Through this experience, I realized the significance of server-side rendering for SEO. This has inspired me to study Next.js to further enhance my skills in building SEO-friendly and scalable web applications."
       }
     ],
     "lessonsLearned": [
       {
         "type": "bulletPoint",
         "content": [
-          "State Management: Recognized the critical role of centralized state management in maintaining consistency across multiple components.",
-          "Real-time Synchronization: Understood the importance of designing real-time updates that avoid conflict with manual changes."
+          "Technical Growth: Enhanced skills in React, SEO strategy implementation, chatbot development, and integrating 3D assets into websites.",
+          "Problem-Solving: Tackled real-world challenges in user interaction and search visibility, gaining practical insights into effective solutions.",
+          "Collaboration: Developed the ability to align technical solutions with organizational goals through clear communication and iterative feedback."
         ]
       }
     ],
@@ -26,8 +35,9 @@
       {
         "type": "bulletPoint",
         "content": [
-          "Enhance the app's design with more engaging visuals and animations.",
-          "Add customizable avatars and introduce social sharing features for increased personalization."
+          "Master Next.js: Expand my knowledge of server-side rendering to build scalable, high-performance, and SEO-optimized web applications.",
+          "Advance SEO Expertise: Deepen my understanding of strategies like dynamic content indexing and Core Web Vitals optimization.",
+          "Improve UX/UI Skills: Continue refining my design capabilities using tools like Figma and Spline to create engaging and user-friendly interfaces."
         ]
       }
     ],
