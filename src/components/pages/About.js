@@ -18,7 +18,6 @@ const About = () => {
       <h1 className="section-title">ABOUT ME</h1>
       <div className="about-container">
         <div className="about">
-          {/* <h2 className="content-title">BIO</h2> */}
           <div className="about-content">
             <p>
               I'm a front-end developer specializing in creating responsive and

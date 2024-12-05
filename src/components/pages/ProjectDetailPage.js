@@ -10,30 +10,32 @@ const ProjectDetailPage = ({ project, closeModal }) => {
   };
 
   return (
-    <div>
+    <div className="project-detail-modal">
       <button className="close-button" onClick={closeModal}>
         <FaTimes />
       </button>
 
-      <h2>{project.title}</h2>
+      <h2 className="project-title">{project.title}</h2>
       <p className="project-summary">{project.summary}</p>
 
       {/* <div className="project-images">{project.image}</div> */}
 
-      <h3>Problems and Solutions</h3>
+      <h3 className="project-subtitle">Problems and Solutions</h3>
       {project.problemsAndSolutions.map((item, index) => (
-        <p key={index}>{item.content}</p>
+        <p className="project-probsol" key={index}>
+          {item.content}
+        </p>
       ))}
 
-      <h3>Lessons Learned</h3>
-      <ul>
+      <h3 className="project-subtitle">Lessons Learned</h3>
+      <ul className="project-bullet">
         {project.lessonsLearned[0].content.map((lesson, index) => (
           <li key={index}>{lesson}</li>
         ))}
       </ul>
 
-      <h3>Future Plans</h3>
-      <ul>
+      <h3 className="project-subtitle">Future Plans</h3>
+      <ul className="project-bullet">
         {project.futurePlans[0].content.map((plan, index) => (
           <li key={index}>{plan}</li>
         ))}

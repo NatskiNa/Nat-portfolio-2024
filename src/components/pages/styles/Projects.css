@@ -15,10 +15,10 @@
 }
 
 .project-content {
-  font-size: 1.1rem;
   text-align: left;
   line-height: 1.5;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: lighter;
 }
 
 .project-link-container {
@@ -64,7 +64,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   z-index: 1000;
-  overflow-y: auto; /* 高さが超えた場合にスクロールできるようにする */
+  overflow-y: auto; /* scrollable*/
 }
 
 .modal-overlay {
@@ -83,6 +83,20 @@
     flex-direction: column; /* 全体のプロジェクトを縦に並べる */
     gap: 40px; /* 各プロジェクト間のスペース */
     padding: 20px;
+  }
+
+  .project-content {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+
+  .skills-content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
   .project-wrapper {
@@ -107,6 +121,7 @@
   }
 
   .modal-content {
+    max-width: 900px;
     top: 75px;
     padding: 40px;
   }
@@ -116,15 +131,23 @@
   .project-container {
     padding: 40px;
   }
+
   .project-content {
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.7;
-    margin-top: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .project-image-container {
     width: 100%;
     height: 430px; /* 画像のサイズを指定 */
+  }
+
+  .modal-content {
+    max-width: 1270px;
+    top: 75px;
+    padding: 50px;
   }
 }
