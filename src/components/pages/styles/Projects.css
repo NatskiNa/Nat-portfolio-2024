@@ -4,6 +4,10 @@
   padding: 20px;
 }
 
+.project-wrapper {
+  margin-bottom: 30px;
+}
+
 .project-images {
   width: 100%;
   margin-bottom: 20px;
@@ -101,9 +105,10 @@
 
   .project-wrapper {
     display: flex;
-    flex-direction: row; /* 横並びにする */
-    justify-content: space-between; /* 左右に均等に配置 */
+    flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 40px;
   }
 
   .project {
@@ -130,6 +135,10 @@
 @media screen and (min-width: 1025px) {
   .project-container {
     padding: 40px;
+  }
+
+  .project-wrapper {
+    margin-bottom: 60px;
   }
 
   .project-content {
