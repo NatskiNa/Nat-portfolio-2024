@@ -93,12 +93,12 @@
 
   {
     "id": 3,
-    "jobTitle": "TEST",
-    "title": "BLANK",
+    "jobTitle": "Personal Project",
+    "title": "Task Manager",
     "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
     "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
-    "images": ["/images/ATAlandingPage.png", "/images/ATAcoursePage.png"],
-    "mainImage": "/images/ATA-mainImage.png",
+    "images": ["/images/taskManager.png", "/images/taskManager-mobile.png"],
+    "mainImage": "/images/taskManager-mainImage.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
@@ -123,8 +123,8 @@
         ]
       }
     ],
-    "url": "https://www.ahmedtechacademy.com/",
-    "code": "null"
+    "url": "https://simple-task-manager-2vgosb0u1-natskinas-projects.vercel.app/",
+    "code": "https://github.com/NatskiNa/simple-task-manager"
   },
 
   {
