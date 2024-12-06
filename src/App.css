@@ -45,30 +45,36 @@ body {
   text-align: left;
 }
 
-button {
+.btn-red {
   align-items: center;
   background-color: #f05454;
   color: black;
-  padding: 10px 20px;
-  font-size: 14px;
+  padding: 16px 30px;
+  font-size: 16px;
   font-weight: 200;
   border: none;
   cursor: pointer;
-  position: relative;
   transition: all 0.3s ease;
-  box-shadow: 3px 3px 0px black;
-}
-
-button:active {
-  box-shadow: none;
-  transform: translate(3px, 3px);
+  box-shadow: 4px 4px 0px black;
 }
 
 .btn-white {
   background-color: white;
   border: solid 1px black;
+  cursor: pointer;
   color: black;
-  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 16px 40px;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 4px 4px 0px black;
+}
+
+.btn-red:active,
+.btn-white:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
 }
 
 @media screen and (min-width: 769px) {
@@ -104,6 +110,15 @@ button:active {
     margin-bottom: 30px;
     margin-top: 0;
   }
+
+  .btn-red {
+    padding: 18px 40px;
+  }
+
+  .btn-white {
+    padding: 18px 50px;
+    margin-left: 30px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -118,5 +133,16 @@ button:active {
 
   .content-title {
     margin-bottom: 30px;
+  }
+
+  .btn-red {
+    padding: 20px 45px;
+    font-size: 18px;
+  }
+
+  .btn-white {
+    padding: 20px 55px;
+    margin-left: 40px;
+    font-size: 18px;
   }
 }

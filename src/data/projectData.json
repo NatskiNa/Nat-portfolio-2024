@@ -7,6 +7,7 @@
     "summary": "In my role as a Junior Web Developer, I developed a responsive website for Ahmed Tech Academy using React, incorporating advanced features such as SEO optimization, a 3D interactive robot character, a chatbot powered by ChatGPT API, and a dynamic blog page.  These elements were designed to improve the academy’s online visibility and enhance user interaction.",
     "skills": ["React.js", "HTML5", "CSS3", "JavaScript", "Spline"],
     "images": ["/images/ATAlandingPage.png", "/images/ATAcoursePage.png"],
+    "mainImage": "/images/ATA-mainImage.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
@@ -53,6 +54,7 @@
     "summary": "The Soccer Point Chart app is a tool designed for pre-teen soccer players to track their daily soccer performance through a point system. Accumulating more points allows players to earn more valuable rewards. Upon reaching milestones of 5, 10, and 20 points, players experience stadium cheering sound effects and confetti animations, enhancing the process and boosting motivation.",
     "skills": ["React.js", "HTML5", "CSS3", "JavaScript", "Firebase"],
     "images": ["/images/pointChart-cal.png", "/images/pointChart-reward.png"],
+    "mainImage": "/images/pointChart-mainImage.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
@@ -96,6 +98,7 @@
     "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
     "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
     "images": ["/images/ATAlandingPage.png", "/images/ATAcoursePage.png"],
+    "mainImage": "/images/ATA-mainImage.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
@@ -131,6 +134,7 @@
     "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
     "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
     "images": ["/images/ATAlandingPage.png", "/images/ATAcoursePage.png"],
+    "mainImage": "/images/ATA-mainImage.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
@@ -166,6 +170,7 @@
     "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
     "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
     "images": ["/images/ATAlandingPage.png", "/images/ATAcoursePage.png"],
+    "mainImage": "/images/ATA-mainImage.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",

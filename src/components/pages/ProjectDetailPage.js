@@ -18,7 +18,34 @@ const ProjectDetailPage = ({ project, closeModal }) => {
       <h2 className="project-title">{project.title}</h2>
       <p className="project-summary">{project.summary}</p>
 
-      {/* <div className="project-images">{project.image}</div> */}
+      {project.mainImage && (
+        <div className="project-main-image-container">
+          <img
+            src={project.mainImage}
+            alt={project.title}
+            className="project-main-image"
+          />
+        </div>
+      )}
+
+      <div className="button-container">
+        {project.url && (
+          <button
+            className="btn-red"
+            onClick={() => handleRedirect(project.url)}
+          >
+            LIVE LINK
+          </button>
+        )}
+        {project.code && (
+          <button
+            className="btn-white"
+            onClick={() => handleRedirect(project.code)}
+          >
+            CODE
+          </button>
+        )}
+      </div>
 
       <h3 className="project-subtitle">Problems and Solutions</h3>
       {project.problemsAndSolutions.map((item, index) => (
@@ -49,20 +76,6 @@ const ProjectDetailPage = ({ project, closeModal }) => {
           </div>
         ))}
       </div> */}
-
-      <div className="button-container">
-        {project.url && (
-          <button onClick={() => handleRedirect(project.url)}>LIVE LINK</button>
-        )}
-        {project.code && (
-          <button
-            className="btn-white"
-            onClick={() => handleRedirect(project.code)}
-          >
-            CODE
-          </button>
-        )}
-      </div>
     </div>
   );
 };

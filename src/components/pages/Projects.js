@@ -39,7 +39,10 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="project-link-container">
-                  <button onClick={() => openModal(project)}>
+                  <button
+                    className="btn-red"
+                    onClick={() => openModal(project)}
+                  >
                     VIEW PROJECT
                   </button>
                 </div>

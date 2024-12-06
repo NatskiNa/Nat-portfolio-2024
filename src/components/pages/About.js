@@ -29,7 +29,7 @@ const About = () => {
             </p>
             <div className="button-container">
               <a href="/NN_CV.pdf" target="_blank" rel="noopener noreferrer">
-                <button>MY RESUME</button>
+                <button className="btn-red">MY RESUME</button>
               </a>
             </div>
           </div>
