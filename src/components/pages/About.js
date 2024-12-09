@@ -20,12 +20,16 @@ const About = () => {
         <div className="about">
           <div className="about-content">
             <p>
-              I'm a front-end developer specializing in creating responsive and
-              user-friendly applications. With a strong interest in React, I
-              enjoy developing interactive features while enhancing my skills.
-              My foundational backend knowledge helps me understand full-stack
-              challenges. I’m eager to bring fresh ideas, adapt to new tools,
-              and stay current with industry trends.
+              As a front-end developer specializing in responsive and
+              user-friendly applications, I have a solid grasp of React,
+              enabling me to develop interactive features that enhance user
+              engagement. My foundational understanding of backend technologies
+              provides a comprehensive perspective on full-stack development
+              challenges. I am committed to bringing fresh ideas, adapting
+              swiftly to new tools, and staying current with industry trends to
+              deliver innovative solutions. Additionally, my background in
+              fashion design contributes a keen aesthetic sense, ensuring
+              visually appealing and intuitive user experiences.
             </p>
             <div className="button-container">
               <a href="/NN_CV.pdf" target="_blank" rel="noopener noreferrer">
