@@ -1,13 +1,74 @@
 .contactMe-container {
-  padding: 60px 20px;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.form-section {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container input,
+.input-container textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.input-container textarea {
+  min-height: 120px;
+  margin-bottom: 15px;
+}
+
+.large-textarea {
+  resize: vertical;
 }
 
 @media screen and (min-width: 769px) {
   .contactMe-container {
-    display: flex; /* Use Flexbox to arrange children horizontally */
+    margin-bottom: 60px;
+  }
+
+  .form-section {
+    max-width: 600px;
+  }
+
+  .input-container {
+    margin-bottom: 20px;
+  }
+
+  .input-container input,
+  .input-container textarea {
+    padding: 13px;
+  }
+
+  .input-container textarea {
+    min-height: 140px;
   }
 }
 
 @media screen and (min-width: 1025px) {
+  .form-section {
+    max-width: 700px;
+  }
+
+  .input-container textarea {
+    min-height: 160px;
+    margin-bottom: 20px;
+  }
 }

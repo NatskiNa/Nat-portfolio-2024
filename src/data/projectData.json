@@ -96,7 +96,7 @@
     "jobTitle": "Personal Project",
     "title": "Task Manager",
     "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
-    "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
+    "skills": ["React", "HTML5", "CSS3", "JavaScript"],
     "images": ["/images/taskManager.png", "/images/taskManager-mobile.png"],
     "mainImage": "/images/taskManager-mainImage.png",
     "problemsAndSolutions": [
