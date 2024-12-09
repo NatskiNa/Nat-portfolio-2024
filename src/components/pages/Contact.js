@@ -42,7 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contactMe-container">
+    <div id="contact" className="contactMe-container">
       <h1 className="section-title">CONTACT FORM</h1>
       <div className="form-section">
         <form onSubmit={handleSubmit}>
@@ -50,7 +50,7 @@ const Contact = () => {
             <input
               type="text"
               name="full-name"
-              placeholder="Your Name"
+              placeholder="Name"
               value={yourName}
               onChange={(e) => setYourName(e.target.value)}
               required
@@ -60,7 +60,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              placeholder="Your Email"
+              placeholder="Email address"
               value={yourEmail}
               onChange={(e) => setYourEmail(e.target.value)}
               required

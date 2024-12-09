@@ -129,12 +129,12 @@
 
   {
     "id": 4,
-    "jobTitle": "Junior Web Developer",
-    "title": "Ahmed Tech Academy",
+    "jobTitle": "Personal Project",
+    "title": "Coming Soon",
     "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
     "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
-    "images": ["/images/ATAlandingPage.png", "/images/ATAcoursePage.png"],
-    "mainImage": "/images/ATA-mainImage.png",
+    "images": ["/images/somethingNew.png", "/images/comingSoon.png"],
+    "mainImage": "/images/somethingNew.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
@@ -159,18 +159,18 @@
         ]
       }
     ],
-    "url": "https://www.ahmedtechacademy.com/",
+    "url": "null",
     "code": "null"
   },
 
   {
     "id": 5,
-    "jobTitle": "Junior Web Developer",
-    "title": "Ahmed Tech Academy",
+    "jobTitle": "Personal Project",
+    "title": "Coming Soon",
     "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
     "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
-    "images": ["/images/ATAlandingPage.png", "/images/ATAcoursePage.png"],
-    "mainImage": "/images/ATA-mainImage.png",
+    "images": ["/images/somethingNew.png", "/images/comingSoon.png"],
+    "mainImage": "/images/comingSoon.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
@@ -195,7 +195,7 @@
         ]
       }
     ],
-    "url": "https://www.ahmedtechacademy.com/",
+    "url": "null",
     "code": "null"
   }
 ]
