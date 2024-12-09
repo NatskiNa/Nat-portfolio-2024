@@ -47,7 +47,7 @@ const ProjectDetailPage = ({ project, closeModal }) => {
         )}
       </div>
 
-      <h3 className="project-subtitle">Problems and Solutions</h3>
+      <h3 className="project-subtitle">Challenges and Solutions</h3>
       {project.problemsAndSolutions.map((item, index) => (
         <p className="project-probsol" key={index}>
           {item.content}

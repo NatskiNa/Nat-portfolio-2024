@@ -95,22 +95,29 @@
     "id": 3,
     "jobTitle": "Personal Project",
     "title": "Task Manager",
-    "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
-    "skills": ["React", "HTML5", "CSS3", "JavaScript"],
+    "introduction": "Task Manager is a simple application for organizing and prioritizing daily tasks.",
+    "summary": "Task Manager is a web application that helps users efficiently manage their daily tasks. Users can add, edit, and delete tasks, as well as drag and drop tasks to rearrange them according to priority. Designed with user-friendliness in mind, the app provides a seamless and intuitive experience for task management. The integration of react-beautiful-dnd enables smooth drag-and-drop functionality, enhancing the overall user experience. The app focuses on simplicity and usability, making it a practical tool for daily task organization.",
+
+    "skills": ["React.js", "HTML5", "CSS3", "JavaScript"],
     "images": ["/images/taskManager.png", "/images/taskManager-mobile.png"],
     "mainImage": "/images/taskManager-mainImage.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
-        "content": "Managing state across multiple components—specifically GradeModal.js, CalendarScoreInput.js, and App.js—led to inconsistencies in updating the available points (count) after users spent points (usedPoints). Directly updating count in Firestore caused conflicts with the real-time synchronization logic, resulting in count reverting to its previous value when new grades were added."
+        "content": "A key challenge during development was understanding the need for multiple components and their roles in a seemingly simple task management system. Initially, it was difficult to see why components like Task, TaskCard, and Tasks were necessary. However, breaking the app into smaller components revealed the importance of modular design in simplifying scaling and feature addition."
+      },
+      {
+        "type": "paragraph",
+        "content": "For example, the Task component manages individual task display and actions like deletion, while the TaskCard component serves as an organizational container, grouping tasks under a title. The Tasks component facilitates drag-and-drop functionality for dynamic reordering. This modular structure clarified each component’s purpose and significantly improved the maintainability and scalability of the codebase."
       }
     ],
     "lessonsLearned": [
       {
         "type": "bulletPoint",
         "content": [
-          "State Management: Recognized the critical role of centralized state management in maintaining consistency across multiple components.",
-          "Real-time Synchronization: Understood the importance of designing real-time updates that avoid conflict with manual changes."
+          "How to integrate third-party libraries to simplify complex features like drag-and-drop.",
+          "Gained hands-on experience integrating third-party libraries to simplify complex features like drag-and-drop.",
+          "Improved understanding of state management in React and the benefits of modular, reusable components."
         ]
       }
     ],
@@ -118,8 +125,9 @@
       {
         "type": "bulletPoint",
         "content": [
-          "Enhance the app's design with more engaging visuals and animations.",
-          "Add customizable avatars and introduce social sharing features for increased personalization."
+          "Add voice input functionality to allow users to add tasks using speech, making the app more accessible.",
+          "Implement theme switching for dark and light modes, enhancing user customization.",
+          "Introduce data persistence using local storage or a backend service to retain user tasks across sessions."
         ]
       }
     ],
@@ -138,25 +146,19 @@
     "problemsAndSolutions": [
       {
         "type": "paragraph",
-        "content": "Managing state across multiple components—specifically GradeModal.js, CalendarScoreInput.js, and App.js—led to inconsistencies in updating the available points (count) after users spent points (usedPoints). Directly updating count in Firestore caused conflicts with the real-time synchronization logic, resulting in count reverting to its previous value when new grades were added."
+        "content": ""
       }
     ],
     "lessonsLearned": [
       {
         "type": "bulletPoint",
-        "content": [
-          "State Management: Recognized the critical role of centralized state management in maintaining consistency across multiple components.",
-          "Real-time Synchronization: Understood the importance of designing real-time updates that avoid conflict with manual changes."
-        ]
+        "content": [""]
       }
     ],
     "futurePlans": [
       {
         "type": "bulletPoint",
-        "content": [
-          "Enhance the app's design with more engaging visuals and animations.",
-          "Add customizable avatars and introduce social sharing features for increased personalization."
-        ]
+        "content": [""]
       }
     ],
     "url": "null",
@@ -174,25 +176,19 @@
     "problemsAndSolutions": [
       {
         "type": "paragraph",
-        "content": "Managing state across multiple components—specifically GradeModal.js, CalendarScoreInput.js, and App.js—led to inconsistencies in updating the available points (count) after users spent points (usedPoints). Directly updating count in Firestore caused conflicts with the real-time synchronization logic, resulting in count reverting to its previous value when new grades were added."
+        "content": ""
       }
     ],
     "lessonsLearned": [
       {
         "type": "bulletPoint",
-        "content": [
-          "State Management: Recognized the critical role of centralized state management in maintaining consistency across multiple components.",
-          "Real-time Synchronization: Understood the importance of designing real-time updates that avoid conflict with manual changes."
-        ]
+        "content": [""]
       }
     ],
     "futurePlans": [
       {
         "type": "bulletPoint",
-        "content": [
-          "Enhance the app's design with more engaging visuals and animations.",
-          "Add customizable avatars and introduce social sharing features for increased personalization."
-        ]
+        "content": [""]
       }
     ],
     "url": "null",
