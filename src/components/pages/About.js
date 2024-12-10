@@ -10,6 +10,7 @@ import {
   SiNodedotjs,
   SiExpress,
   SiAdobeillustrator,
+  SiFigma,
 } from 'react-icons/si';
 
 const About = () => {
@@ -68,6 +69,9 @@ const About = () => {
             </div>
             <div className="skill-item">
               <SiAdobeillustrator /> Adobe Illustrator
+            </div>
+            <div className="skill-item">
+              <SiFigma /> Figma
             </div>
           </div>
         </div>
