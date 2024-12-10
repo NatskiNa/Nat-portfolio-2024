@@ -137,12 +137,12 @@
 
   {
     "id": 4,
-    "jobTitle": "Personal Project",
-    "title": "Coming Soon",
+    "jobTitle": "Group Project",
+    "title": "Premier League Fan Site",
     "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
-    "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
-    "images": ["/images/somethingNew.png", "/images/comingSoon.png"],
-    "mainImage": "/images/somethingNew.png",
+    "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    "images": ["/images/premierLeague.png", "/images/premierLeague-mobile.png"],
+    "mainImage": "/images/premierLeague-mainPage.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
@@ -161,8 +161,8 @@
         "content": [""]
       }
     ],
-    "url": "null",
-    "code": "null"
+    "url": "https://pl-fan-site.vercel.app/",
+    "code": "https://github.com/NatskiNa/PL_fanSite"
   },
 
   {
