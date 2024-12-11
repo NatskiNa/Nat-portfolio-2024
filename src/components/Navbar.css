@@ -1,4 +1,3 @@
-/* ナビゲーションバー全体のスタイル */
 .navbar {
   background-color: whitesmoke;
   position: sticky;
@@ -8,7 +7,6 @@
   z-index: 100;
 }
 
-/* ナビゲーションのコンテナ */
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -16,20 +14,19 @@
   position: relative;
 }
 
-/* メニューアイコンのスタイル */
 .menu-icon {
   font-size: 24px;
   cursor: pointer;
   position: absolute;
-  top: 20px; /* 上からの距離を指定 */
-  right: 20px; /* 右からの距離を指定 */
-  z-index: 200; /* アイコンが他の要素の上に表示されるようにする */
+  top: 20px;
+  right: 20px;
+  z-index: 200;
 }
 
-/* 初期状態ではナビゲーションメニューは画面外に隠す */
+/* Initially, hide the navigation menu off-screen */
 .nav-menu {
   position: absolute;
-  top: 40px; /* .menu-icon の下に配置 */
+  top: 40px; /* display it below .menu-icon */
   right: 0;
   width: 100px;
   background-color: whitesmoke;
@@ -45,10 +42,9 @@
 }
 
 .nav-menu.active {
-  transform: scaleY(1); /* メニューが画面内にスライドして表示される */
+  transform: scaleY(1); /* The menu slides into view on the screen */
 }
 
-/* 各ナビゲーションリンクのスタイル */
 .nav-menu li {
   margin: 15px 0;
 }
@@ -65,7 +61,6 @@
   color: #f05454;
 }
 
-/* デスクトップ画面でのメニューアイコン非表示 */
 @media screen and (min-width: 769px) {
   .navbar {
     display: flex;
@@ -83,6 +78,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    cursor: pointer;
     margin: 0;
   }
 
