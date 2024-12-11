@@ -32,8 +32,8 @@ body {
 .section-title::after {
   content: '';
   display: block;
-  width: 120px; /* ラインの幅を適切に調整 */
-  height: 9px; /* ラインの太さを設定 */
+  width: 120px;
+  height: 9px;
   background-color: #f05454;
   position: absolute;
   bottom: 2px;
