@@ -163,35 +163,5 @@
     ],
     "url": "https://pl-fan-site.vercel.app/",
     "code": "https://github.com/NatskiNa/PL_fanSite"
-  },
-
-  {
-    "id": 5,
-    "jobTitle": "Personal Project",
-    "title": "Coming Soon",
-    "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
-    "skills": ["React", "HTML5", "CSS3", "JavaScript", "Spline"],
-    "images": ["/images/somethingNew.png", "/images/comingSoon.png"],
-    "mainImage": "/images/comingSoon.png",
-    "problemsAndSolutions": [
-      {
-        "type": "paragraph",
-        "content": ""
-      }
-    ],
-    "lessonsLearned": [
-      {
-        "type": "bulletPoint",
-        "content": [""]
-      }
-    ],
-    "futurePlans": [
-      {
-        "type": "bulletPoint",
-        "content": [""]
-      }
-    ],
-    "url": null,
-    "code": null
   }
 ]
