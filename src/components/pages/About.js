@@ -34,7 +34,7 @@ const About = () => {
             </p>
             <div className="button-container">
               <a
-                href="s3://my-portfolio-pdfs/NN_CV.pdf"
+                href="https://my-portfolio-pdfs.s3.us-west-2.amazonaws.com/NN_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
