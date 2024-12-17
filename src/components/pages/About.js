@@ -12,6 +12,7 @@ import {
   SiAdobeillustrator,
   SiFigma,
 } from 'react-icons/si';
+import myResume from '../../assets/NN_WebDev_resume.pdf';
 
 const About = () => {
   return (
@@ -33,7 +34,7 @@ const About = () => {
               visually appealing and intuitive user experiences.
             </p>
             <div className="button-container">
-              <a href="/NN_CV.pdf" target="_blank" rel="noopener noreferrer">
+              <a href={myResume} target="_blank" rel="noopener noreferrer">
                 <button className="btn-red">MY RESUME</button>
               </a>
             </div>
