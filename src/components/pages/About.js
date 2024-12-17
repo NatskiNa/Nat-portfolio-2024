@@ -33,11 +33,7 @@ const About = () => {
               visually appealing and intuitive user experiences.
             </p>
             <div className="button-container">
-              <a
-                href="https://my-portfolio-pdfs.s3.us-west-2.amazonaws.com/NN_CV.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="/NN_CV.pdf" target="_blank" rel="noopener noreferrer">
                 <button className="btn-red">MY RESUME</button>
               </a>
             </div>
