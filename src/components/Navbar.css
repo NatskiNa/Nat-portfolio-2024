@@ -11,7 +11,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1400px;
+  width: 100%;
   position: relative;
+  margin: 0 auto;
 }
 
 .menu-icon {
@@ -21,6 +24,17 @@
   top: 20px;
   right: 20px;
   z-index: 200;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  cursor: pointer;
+  padding: 15px;
 }
 
 /* Initially, hide the navigation menu off-screen */
@@ -63,8 +77,6 @@
 
 @media screen and (min-width: 769px) {
   .navbar {
-    display: flex;
-    justify-content: flex-end;
     height: 70px;
   }
 
@@ -92,7 +104,16 @@
 }
 
 @media screen and (min-width: 1025px) {
-  .nav-menu li {
+  .navbar {
+    height: 70px;
+  }
+
+  .logo img {
+    padding: 20px;
+    height: 45px;
+  }
+
+  .navbar-container .nav-menu li {
     margin: 0 60px;
   }
 }

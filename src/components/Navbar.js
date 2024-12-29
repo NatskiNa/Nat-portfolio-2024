@@ -13,9 +13,14 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
+        <a href="#home" className="logo">
+          <img src="/NN-logo.png" alt="Logo" />
+        </a>
+
         <div className="menu-icon" onClick={toggleMenu}>
           {isMenuOpen ? <FaTimes /> : <FaBars />}
         </div>
+
         <ul className={isMenuOpen ? 'nav-menu active' : 'nav-menu'}>
           <li>
             <Link

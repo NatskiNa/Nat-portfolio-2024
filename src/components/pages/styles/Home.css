@@ -13,6 +13,7 @@
 .header-contents {
   padding: 20px;
   transform: translateY(-40px);
+  max-width: 1400px;
 }
 
 .header-container h2 {
@@ -36,6 +37,7 @@
 
   .header-contents {
     padding: 40px;
+    margin-left: 40px;
     transform: translateY(-70px);
   }
 
@@ -55,9 +57,7 @@
   }
 
   .header-contents {
-    padding: 60px;
     transform: translateY(-90px);
-    max-width: 1230px;
     width: 100%;
     text-align: left;
   }
