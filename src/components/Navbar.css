@@ -80,6 +80,10 @@
     height: 70px;
   }
 
+  .logo img {
+    margin-left: 20px;
+  }
+
   .menu-icon {
     display: none;
   }
@@ -109,7 +113,8 @@
   }
 
   .logo img {
-    padding: 20px;
+    padding: 10px;
+    margin-left: 30px;
     height: 45px;
   }
 
