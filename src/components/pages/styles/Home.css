@@ -51,18 +51,22 @@
 @media screen and (min-width: 1025px) {
   .header-container {
     min-height: 550px;
+    align-items: center;
   }
 
   .header-contents {
     padding: 60px;
     transform: translateY(-90px);
+    max-width: 1230px;
+    width: 100%;
+    text-align: left;
   }
 
   .header-container h2 {
-    font-size: 36px;
+    font-size: 38px;
   }
 
   .header-container h1 {
-    font-size: 46px;
+    font-size: 49px;
   }
 }
