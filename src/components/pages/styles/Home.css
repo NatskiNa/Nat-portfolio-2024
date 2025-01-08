@@ -58,8 +58,7 @@
 
   .header-contents {
     transform: translateY(-90px);
-    width: 100%;
-    text-align: left;
+    width: 95%;
   }
 
   .header-container h2 {

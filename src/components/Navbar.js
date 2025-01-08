@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <a href="#home" className="logo">
-          <img src="/NN-logo.png" alt="Logo" />
+          <img src="/NN-logoPink.png" alt="Logo" />
         </a>
 
         <div className="menu-icon" onClick={toggleMenu}>
