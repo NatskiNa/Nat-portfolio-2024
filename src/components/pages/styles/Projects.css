@@ -25,6 +25,13 @@
   font-weight: lighter;
 }
 
+.skills-content {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .project-link-container {
   margin-top: 40px;
 }
@@ -77,15 +84,15 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* 背景を暗くする */
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
 
 @media screen and (min-width: 769px) {
   .project-container {
     display: flex;
-    flex-direction: column; /* 全体のプロジェクトを縦に並べる */
-    gap: 40px; /* 各プロジェクト間のスペース */
+    flex-direction: column;
+    gap: 40px;
     padding: 20px;
   }
 
@@ -96,11 +103,8 @@
     margin-top: 20px;
   }
 
-  .skills-content {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  .job-title {
+    margin-bottom: 5px;
   }
 
   .project-wrapper {

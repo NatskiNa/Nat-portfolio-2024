@@ -67,6 +67,7 @@
   justify-content: flex-start;
   gap: 20px;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 769px) {
@@ -122,5 +123,9 @@
 
   .project-main-image {
     max-width: 950px;
+  }
+
+  .button-container {
+    margin-bottom: 40px;
   }
 }
