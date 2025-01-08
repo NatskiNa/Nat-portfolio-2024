@@ -163,5 +163,41 @@
     ],
     "url": "https://pl-fan-site.vercel.app/",
     "code": "https://github.com/NatskiNa/PL_fanSite"
+  },
+
+  {
+    "id": 5,
+    "jobTitle": "Personal Project",
+    "title": "Fashion Designer Portfolio Site",
+    "introduction": "This project marks my first venture into WordPress development. As a Front-end developer, I took on this challenge to expand my skill set and deepen my understanding of CMS platforms. Leveraging tools like Elementor and Astra, I built a fully functional, responsive, and visually appealing portfolio site, applying modern web development principles and SEO-friendly practices.",
+    "skills": ["WordPress", "Elementor", "Astra"],
+    "images": ["/images/byNatski.png", "/images/byNatski-mobile.png"],
+    "mainImage": "/images/byNatski-mainPage.png",
+    "problemsAndSolutions": [
+      {
+        "type": "paragraph",
+        "content": "As a React developer, my biggest challenge was adapting to WordPress’s ecosystem, which operates on a structured CMS framework rather than the component-based approach I was familiar with. To overcome this, I focused on learning the basics of WordPress and leveraged Astra and Elementor for responsive design and customization. This hands-on approach helped me deliver a functional and visually appealing portfolio."
+      }
+    ],
+    "lessonsLearned": [
+      {
+        "type": "bulletPoint",
+        "content": [
+          "WordPress offers a flexible but structured system that contrasts with React’s component-driven approach. Understanding this difference improved my adaptability as a developer.",
+          "I gained a clear understanding of how Astra provides a theme foundation and Elementor enables responsive design. Initially, I struggled to see how they worked together, but hands-on experimentation clarified their complementary roles in streamlining development."
+        ]
+      }
+    ],
+    "futurePlans": [
+      {
+        "type": "bulletPoint",
+        "content": [
+          "Dive into advanced SEO techniques to enhance the performance and visibility of WordPress sites.",
+          "Combine my React skills with WordPress by experimenting with headless WordPress setups, using REST APIs and React frontends."
+        ]
+      }
+    ],
+    "url": "https://bynatski.com/",
+    "code": ""
   }
 ]
