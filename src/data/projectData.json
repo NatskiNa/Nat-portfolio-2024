@@ -139,26 +139,31 @@
     "id": 4,
     "jobTitle": "Group Project",
     "title": "Premier League Fan Site",
-    "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, mi et tincidunt bibendum, magna dui tincidunt ex, vel fermentum nunc neque vel dui. Nullam et purus sit amet sem fermentum ultrices.",
+    "introduction": "This project was a group effort by a team of three to create a three-page website, including a Home page, Contact page, and a Game page. We conceptualized the Soccer Trivia Game, which uses JavaScript for timed questions and user interaction. Our team collaborated effectively using GitHub for version control and project management.",
     "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
     "images": ["/images/premierLeague.png", "/images/premierLeague-mobile.png"],
     "mainImage": "/images/premierLeague-mainPage.png",
     "problemsAndSolutions": [
       {
         "type": "paragraph",
-        "content": ""
+        "content": "This was my first experience collaborating on a project using GitHub. Initially, managing version control and resolving merge conflicts was challenging. However, through consistent communication and practice, our team learned to use GitHub effectively for branching, pull requests, and code reviews, ensuring smooth collaboration."
       }
     ],
     "lessonsLearned": [
       {
         "type": "bulletPoint",
-        "content": [""]
+        "content": [
+          "I gained hands-on experience with GitHub for team collaboration, improving my understanding of version control, branching strategies, and resolving conflicts.",
+          "I learned the importance of clear communication and task delegation in group projects to ensure progress and efficiency."
+        ]
       }
     ],
     "futurePlans": [
       {
         "type": "bulletPoint",
-        "content": [""]
+        "content": [
+          "Integrating an actual Premier League API could enhance the project by enabling real-time updates for game results, schedules, and player statistics. This would provide dynamic, up-to-date content and significantly improve the site’s functionality and user experience."
+        ]
       }
     ],
     "url": "https://pl-fan-site.vercel.app/",
