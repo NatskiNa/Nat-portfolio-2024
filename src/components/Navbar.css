@@ -32,7 +32,7 @@
 }
 
 .logo img {
-  height: 40px;
+  height: 65px;
   cursor: pointer;
   padding: 15px;
 }
@@ -81,6 +81,7 @@
   }
 
   .logo img {
+    height: 65px;
     margin-left: 20px;
   }
 
@@ -114,7 +115,7 @@
 
   .logo img {
     margin-left: 30px;
-    height: 45px;
+    height: 70px;
   }
 
   .navbar-container .nav-menu li {
