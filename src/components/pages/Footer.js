@@ -6,10 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-container">
-        <a
-          className="footer-icons"
-          href="https://www.linkedin.com/in/natskina/"
-        >
+        <a className="footer-icons" href="https://www.linkedin.com/in/nakanat/">
           <FaLinkedin size={29} />
         </a>
         <a className="footer-icons" href="https://github.com/NatskiNa">
