@@ -1,4 +1,4 @@
-# Nat Portfolio 2024
+# Natski Nakano Portfolio 2024
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, and experience as a web developer. It is built with React and designed to be fast, responsive, and visually engaging.
 
