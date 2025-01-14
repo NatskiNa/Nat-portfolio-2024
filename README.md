@@ -1,71 +1,40 @@
-# Getting Started with Create React App
+# Nat Portfolio 2024
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This site showcases my projects, skills, and experience as a web developer. It is built with React and designed to be fast, responsive, and visually engaging.
 
-## Available Scripts
+## 🌟 Demo
 
-In the project directory, you can run:
+Check out the live demo here: [Nat Portfolio 2024](https://www.owl135portfolio.com/)
 
-### `npm start`
+![Screenshot 2025-01-14 at 11 51 18 AM](https://github.com/user-attachments/assets/560c29e4-a9b0-40d2-b180-7644645154f0)
+![Screenshot 2025-01-14 at 11 51 46 AM](https://github.com/user-attachments/assets/e08a4295-7e2d-4a07-a102-829b58d1a50e)
+![Screenshot 2025-01-14 at 11 52 07 AM](https://github.com/user-attachments/assets/b23a1efd-dad4-418c-928b-ed63d770e4e6)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
+- **Interactive UI**: Smooth animations and user-friendly navigation.
+- **Dynamic Projects Section**: Automatically updates with new projects by leveraging a JSON file for easy customization.
+- **Project Details with React Modal**: View detailed descriptions of each project in a modal window for a seamless and interactive user experience.
+- **Contact Form**: Seamlessly integrated with EmailJS to send emails directly from the website.
+- **Custom Domain**: Hosted on AWS Route53 and deployed with Vercel.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
 
-### `npm run build`
+- **Frontend**: React, JavaScript, HTML5, CSS3
+- **Form Handling**: EmailJS for sending email inquiries
+- **Hosting & Deployment**: 
+  - **Custom Domain**: AWS Route53
+  - **Deployment Platform**: Vercel
+- **Version Control**: Git and GitHub
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## 📄 License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Copyright (c) 2025 Natski Nakano. All Rights Reserved.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This repository and its contents are protected by copyright law. Redistribution, modification, or use of this code in any form is strictly prohibited without explicit written permission from the copyright holder.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Nat-portfolio-2004
