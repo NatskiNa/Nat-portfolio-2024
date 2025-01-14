@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This site showcases my projects, skill
 
 ## 🌟 Demo
 
-Check out the live demo here: [Nat Portfolio 2024](https://www.owl135portfolio.com/)
+Check out the live demo here: [NNakano Portfolio 2024](https://www.owl135portfolio.com/)
 
 ![Screenshot 2025-01-14 at 11 51 18 AM](https://github.com/user-attachments/assets/560c29e4-a9b0-40d2-b180-7644645154f0)
 ![Screenshot 2025-01-14 at 11 51 46 AM](https://github.com/user-attachments/assets/e08a4295-7e2d-4a07-a102-829b58d1a50e)
